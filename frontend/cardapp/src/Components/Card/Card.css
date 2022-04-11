@@ -1,0 +1,35 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(51, 2, 2, 0.2);
+    background-color:bisque;
+    transition: 0.3s;
+    text-align: center;
+    margin: 0.5rem auto;
+    max-width: 15rem;
+    font-family:'Times New Roman', Times, serif;
+    font-style: inherit;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .list-group{
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+  }
+  .list-group-item{
+    background-color:azure;
+    color:blueviolet;
+  }
+
+  img{
+    max-width: 70%;
+    margin-top:0.5rem;
+    align-self: center;
+    
+  }

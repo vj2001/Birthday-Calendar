@@ -1,0 +1,30 @@
+.event-controls{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 1rem;
+    color:antiquewhite
+}
+
+.event-control label{
+       color:aqua;
+       display: block;
+       font-weight: bold;
+       margin-bottom: 0.5 rem;
+}
+
+.event-control input{
+    font:inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width:15rem;
+    max-width: 100%;
+}
+
+.event-actions{
+    text-align: right;
+    color:blue;
+}
