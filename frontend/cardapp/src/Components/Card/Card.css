@@ -4,7 +4,8 @@
     transition: 0.3s;
     text-align: center;
     margin: 0.5rem auto;
-    max-width: 15rem;
+    max-width: 15%;
+    max-height: 25rem;
     font-family:'Times New Roman', Times, serif;
     font-style: inherit;
     border-radius: 5px;
@@ -18,7 +19,7 @@
     padding: 5px 5px;
     display: flex;
     flex-direction: column;
-    font-size: large;
+    font-size: medium;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
   }
@@ -28,8 +29,32 @@
   }
 
   img{
-    max-width: 70%;
+    max-width: 100%;
+    max-height: 10rem;
     margin-top:0.5rem;
     align-self: center;
-    
   }
+  .description{
+    color:wheat;
+    background-color:black;
+    margin: auto auto 2rem ;
+    max-width:30%
+  }
+
+
+  .heading{
+    color:blue;
+    font-family:cursive;
+    font-style: italic;
+    background-color:rgb(242, 234, 243);
+    margin: auto auto 1rem ;
+    max-width:30%
+  }
+
+alert{
+  color:black;
+  background-color:goldenrod;
+  align-self: center;
+  margin-top: 2rem;
+  width:30%
+}

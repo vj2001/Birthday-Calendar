@@ -6,22 +6,6 @@
   margin: 1rem auto;
 }
 
-h3{
-  color:blue;
-  font-family:cursive;
-  font-style: italic;
-  background-color:rgb(242, 234, 243);
-  margin: auto auto 1rem 
-  
-}
-alert{
-  color:black;
-  background-color:goldenrod;
-  align-self: center;
-  margin-top: 2rem;
-  width:30%
-}
-
 body{
   background-color:rgb(235, 94, 94);
   opacity:1;
